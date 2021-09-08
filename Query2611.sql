@@ -1,1 +1,0 @@
-SELECT m.id, m.name FROM movies m INNER JOIN genres g on m.id_genres = g.id AND g.description = 'Action' 
